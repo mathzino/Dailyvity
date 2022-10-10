@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div>
-      <div>Welcome to dailyvity</div>
+      <div className=" text-4xl">Welcome to dailyvity</div>
     </div>
   );
 }
